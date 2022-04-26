@@ -1,0 +1,36 @@
+JWT_SECRET=testnodeapi
+
+
+
+
+PORT = 5015
+
+
+
+
+# database variables
+
+
+
+databaseName = ensurely
+
+dbUsername = ensureuser
+
+
+
+dbPassword = 'qGY7OoKnklDewoPJ'
+
+
+
+dbHost = localhost
+
+
+
+
+nodemailerEmail = digimantradeveloper@gmail.com
+
+
+
+
+
+nodemailerPassword = TesterLdh123!

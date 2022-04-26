@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Ensurely</title>
+    <!-- HTML5 Shim and Respond.js IE11 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 11]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="Free Datta Able Admin Template come up with latest Bootstrap 4 framework with basic components, form elements and lots of pre-made layout options" />
+    <meta name="keywords" content="admin templates, bootstrap admin templates, bootstrap 4, dashboard, dashboard templets, sass admin templets, html admin templates, responsive, bootstrap admin templates free download,premium bootstrap admin templates, datta able, datta able bootstrap admin template, free admin theme, free dashboard template"/>
+    <meta name="author" content="CodedThemes"/>
+
+    <!-- Favicon icon -->
+    <link rel="icon" href="/public/../imagescon.ico" type="image/x-icon">
+    <!-- fontawesome icon -->
+    <link rel="stylesheet" href="/public/fonts/fontawesome/css/fontawesome-all.min.css">
+    <!-- animation css -->
+    <link rel="stylesheet" href="/public/plugins/animation/css/animate.min.css">
+    <link rel="stylesheet" href="/public/plugins/chart-morris/css/morris.css">
+    <!-- <link rel="stylesheet" href="/plugins/chart-morris/css/morris.css"> -->
+    <!-- vendor css -->
+    <link rel="stylesheet" href="/public/css/style.css">
+
+</head>
+
+<body>
+  
+    <!-- [ Pre-loader ] start -->
+    <div class="loader-bg">
+        <div class="loader-track">
+            <div class="loader-fill"></div>
+        </div>
+    </div>
+    <!-- [ Pre-loader ] End -->
+    <!-- [ navigation menu ] start -->
+    <nav class="pcoded-navbar">
+        <div class="navbar-wrapper">
+            <div class="navbar-brand header-logo">
+                <a href="index.ejs" class="b-brand">
+                   <img src="/img/ensure.ly.png">
+                </a>
+                <a class="mobile-menu" id="mobile-collapse" href="javascript:"><span></span></a>
+            </div>
+            <div class="navbar-content scroll-div">
+                <ul class="nav pcoded-inner-navbar">
+                    <li class="nav-item pcoded-menu-caption">
+                        <label></label>
+                    </li>
+                    <li data-username="dashboard Default Ecommerce CRM Analytics Crypto Project" class="nav-item active">
+                        <a href="index.ejs" class="nav-link "><span class="pcoded-micon"><img src="/img/dashboard.png"></span><span class="pcoded-mtext">Dashboard</span></a>
+                    </li>
+                    <li data-username="dashboard Default Ecommerce CRM Analytics Crypto Project" class="nav-item ">
+                        <a href="index.ejs" class="nav-link "><span class="pcoded-micon"><img src="/img/addsku.png"></span><span class="pcoded-mtext">Add SKU</span></a>
+                    </li>
+                    <li data-username="dashboard Default Ecommerce CRM Analytics Crypto Project" class="nav-item ">
+                        <a href="index.ejs" class="nav-link "><span class="pcoded-micon"><img src="/img/analytical.png"></span><span class="pcoded-mtext">Analytics</span></a>
+                    </li>
+                    <li data-username="dashboard Default Ecommerce CRM Analytics Crypto Project" class="nav-item ">
+                        <a href="index.ejs" class="nav-link "><span class="pcoded-micon"><img src="/public/img/setting.png"></span><span class="pcoded-mtext">Setting</span></a>
+                    </li>
+                    <li data-username="dashboard Default Ecommerce CRM Analytics Crypto Project " class="nav-item logout">
+                        <form id="logout" action="/v1/admin/logout" method="POST">
+                        <button type="submit" class="btn btn-default btn-dark">
+                            <span class="pcoded-micon"><img src="/public/img/Icon open-account-logout.png"><span class="pcoded-mtext">Logout</span>
+                          </button>
+                        </form>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- [ navigation menu ] end -->
+
+
+    <!-- [ Header ] start -->
+    <header class="navbar pcoded-header navbar-expand-lg navbar-light">
+        <div class="m-header">
+            <a class="mobile-menu" id="mobile-collapse1" href="javascript:"><span></span></a>
+           
+            <a href="index.html" class="b-brand">
+                   <div class="b-bg">
+                       <i class="feather icon-trending-up"></i>
+                   </div>
+                   <span class="b-title">Datta Able</span>
+               </a>
+        </div>
+        <a class="mobile-menu" id="mobile-header" href="javascript:">
+            <i class="feather icon-more-horizontal"></i>
+        </a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav mr-auto">
+
+             
+
+
+                <!-- <li><a href="javascript:" class="full-screen" onclick="javascript:toggleFullScreen()"><i class="feather icon-maximize"></i></a></li>
+                <li class="nav-item dropdown">
+                    <a class="dropdown-toggle" href="javascript:" data-toggle="dropdown">Dropdown</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="javascript:">Action</a></li>
+                        <li><a class="dropdown-item" href="javascript:">Another action</a></li>
+                        <li><a class="dropdown-item" href="javascript:">Something else here</a></li>
+                    </ul>
+                </li> -->
+                
+                <li class="nav-item">
+                    <!-- <div class="main-search">
+                        <div class="input-group">
+                            <input type="text" id="m-search" class="form-control" placeholder="Search . . .">
+                            <a href="javascript:" class="input-group-append search-close">
+                                <i class="feather icon-x input-group-text"></i>
+                            </a>
+                            <span class="input-group-append search-btn btn btn-primary">
+                                <i class="feather icon-search input-group-text"></i>
+                            </span>
+                        </div>
+                    </div> -->
+                 
+                <div class="input-group search-box">
+                    <button class="btn btn-secondary" type="button">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                        </button>
+                    <input type="text" class="form-control" placeholder="Search">
+                    <div class="input-group-append">
+                  
+                    </div>
+                    </div>
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
+                <li>
+                    <div class="dropdown">
+                        <a class="dropdown-toggle" href="javascript:" data-toggle="dropdown"><i class="icon feather icon-bell"></i></a>
+                        <div class="dropdown-menu dropdown-menu-right notification">
+                            <div class="noti-head">
+                                <h6 class="d-inline-block m-b-0">Notifications</h6>
+                                <div class="float-right">
+                                    <a href="javascript:" class="m-r-10">mark as read</a>
+                                    <a href="javascript:">clear all</a>
+                                </div>
+                            </div>
+                            <ul class="noti-body">
+                                <li class="n-title">
+                                    <p class="m-b-0">NEW</p>
+                                </li>
+                                <li class="notification">
+                                    <div class="media">
+                                        <img class="img-radius" src="images/avatar-1.jpg" alt="Generic placeholder image">
+                                        <div class="media-body">
+                                            <p><strong>John Doe</strong><span class="n-time text-muted"><i class="icon feather icon-clock m-r-10"></i>30 min</span></p>
+                                            <p>New ticket Added</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="n-title">
+                                    <p class="m-b-0">EARLIER</p>
+                                </li>
+                                <li class="notification">
+                                    <div class="media">
+                                        <img class="img-radius" src="../images/avatar-2.jpg" alt="Generic placeholder image">
+                                        <div class="media-body">
+                                            <p><strong>Joseph William</strong><span class="n-time text-muted"><i class="icon feather icon-clock m-r-10"></i>30 min</span></p>
+                                            <p>Prchace New Theme and make payment</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="notification">
+                                    <div class="media">
+                                        <img class="img-radius" src="../images/avatar-3.jpg" alt="Generic placeholder image">
+                                        <div class="media-body">
+                                            <p><strong>Sara Soudein</strong><span class="n-time text-muted"><i class="icon feather icon-clock m-r-10"></i>30 min</span></p>
+                                            <p>currently login</p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <div class="noti-footer">
+                                <a href="javascript:">show all</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="dropdown drp-user">
+                        <a href="javascript:" class="dropdown-toggle" data-toggle="dropdown">
+                            <img src="/images/profile.png" alt=""> </a>
+                        <div class="dropdown-menu dropdown-menu-right profile-notification">
+                            <div class="pro-head">
+                                
+                                <span>John Doe</span>
+                                <a href="auth-signin.html" class="dud-logout" title="Logout">
+                                    <i class="feather icon-log-out"></i>
+                                </a>
+                            </div>
+                            <ul class="pro-body">
+                                <li><a href="javascript:" class="dropdown-item"><i class="feather icon-settings"></i> Settings</a></li>
+                                <li><a href="javascript:" class="dropdown-item"><i class="feather icon-user"></i> Profile</a></li>
+                                <li><a href="message.html" class="dropdown-item"><i class="feather icon-mail"></i> My Messages</a></li>
+                                <li><a href="auth-signin.html" class="dropdown-item"><i class="feather icon-lock"></i> Lock Screen</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                   
+                </li>
+                <li>
+                    <img src="/public/img/download.png">
+                </li>
+            </ul>
+        </div>
+    </header>
+    <!-- [ Header ] end -->
+   
+
+    <!-- [ Main Content ] start -->
+    <div class="pcoded-main-container">
+      
+     
+        <div class="pcoded-wrapper">
+            <div class="pcoded-content">
+                <div class="pcoded-inner-content">
+                    <!-- [ breadcrumb ] start -->
+                    <div class="error-part">
+                        <div class="top-box">
+                            <div class="first-box-section">
+                            <img src="/img/caution1.png">
+                            <p>Product name (27653)reported many times</p>
+                            </div>
+                            <div class="first-box-section">
+                            <img src="/img/cross (1).png">
+                        </div>
+                        </div>
+                   </div>
+
+                    <!-- [ breadcrumb ] end -->
+                    <div class="main-body">
+                        <div class="page-wrapper cst-progress-bar">
+                            <!-- [ Main Content ] start -->
+                            <div class="row card-box">
+                                <!--[ daily sales section ] start-->
+                                <div class="col-md-6 col-xl-4">
+                                    <div class="card daily-sales">
+                                        <div class="card-block">
+                                            <img src="/public/img/newscan.png" alt="newscan">
+                                            <div class="row d-flex align-items-center">
+                                                <div class="col-12">
+                                                    <h3 class=" d-flex align-items-center m-b-0">250</h3>
+                                                </div>
+                                            </div>
+                                            <h6 class="mb-4">New Scans</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--[ daily sales section ] end-->
+                                <!--[ Monthly  sales section ] starts-->
+                                <div class="col-md-6 col-xl-4">
+                                    <div class="card Monthly-sales">
+                                        <div class="card-block">
+                                            <img src="/public/img/fake product.png">
+                                            <div class="row d-flex align-items-center">
+                                                <div class="col-12">
+                                                    <h3 class=" d-flex align-items-center  m-b-0">240</h3>
+                                                </div>
+                                            </div>
+                                                <h6 class="mb-4">Fake Product</h6>
+                                               
+                                            
+                                           
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--[ Monthly  sales section ] end-->
+                                <!--[ year  sales section ] starts-->
+                                <div class="col-md-12 col-xl-4">
+                                    <div class="card yearly-sales">
+                                        <div class="card-block">
+                                            <img src="/public/img/feedback.png">
+                                            <div class="row d-flex align-items-center">
+                                                <div class="col-12">
+                                                    <h3 class=" d-flex align-items-center  m-b-0">280</h3>
+                                                </div>
+                                            </div>
+                                                <h6 class="mb-4">New Feedbacks</h6>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                <div class="main-body">
+                        <div class="page-wrapper">
+                            <!-- [ Main Content ] start -->
+                            <div class="row">
+                                <div class="col-xl-4">
+                                    <div class="card">
+
+                                           <div class="product">
+                                            <h4>Recent Products Scanned</h4
+                                                >
+                                            <p>Last 24 Hours</p>
+                                           </div>
+                                        <div class="card-block">
+                                            <div id="morris-donut-chart" style="height:230px"></div>
+                                            <div id="legend"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- [ Morris Chart ] end -->
+
+                                <div class="col-xl-4">
+                                    <div class="card">
+                                        <div class="product">
+                                            <h4>Popular 5 Product brands</h4>
+                                            <p>Last 30 days</p>
+                                           </div>
+
+                                           <table class=" table popular-table">
+                                           
+                                            <tbody>
+                                              <tr>
+                                                <th scope="row">1</th>
+                                                <td>Mark</td>
+                                                <td>Otto</td>
+                                                <!-- <td><button type="button" class="btn btn-outline-primary">Primary</button></td> -->
+                                                <td>
+                                                    <a href="#">
+                                                        <button type="button" class="btn btn-outline-primary">view</button>
+                                                    </a>
+                                                </td>
+                                              </tr>
+                                              <tr>
+                                                <th scope="row">2</th>
+                                                <td>Jacob</td>
+                                                <td>Thornton</td>
+                                                <!-- <td><button type="button" class="btn btn-outline-primary">Primary</button></td> -->
+                                                <td>
+                                                    <a href="#">
+                                                        <button type="button" class="btn btn-outline-primary">view</button>
+                                                    </a>
+                                                </td>
+                                              </tr>
+                                              <tr>
+                                                <th scope="row">3</th>
+                                                <td>Jacob</td>
+                                                <td>Thornton</td>
+                                                <!-- <td><button type="button" class="btn btn-outline-primary">Primary</button></td> -->
+                                                <td>
+                                                    <a href="#">
+                                                        <button type="button" class="btn btn-outline-primary">view</button>
+                                                    </a>
+                                                </td>
+                                              </tr>
+                                              <tr>
+                                                <th scope="row">4</th>
+                                                <td>Jacob</td>
+                                                <td>Thornton</td>
+                                                <!-- <td><button type="button" class="btn btn-outline-primary">Primary</button></td> -->
+                                                <td>
+                                                    <a href="#">
+                                                        <button type="button" class="btn btn-outline-primary">view</button>
+                                                    </a>
+                                                </td>
+                                              </tr>
+                                              <tr>
+                                                <th scope="row">5</th>
+                                                <td>Jacob</td>
+                                                <td>Thornton</td>
+                                                <!-- <td><button type="button" class="btn btn-outline-primary">Primary</button></td> -->
+                                                <td>
+                                                    <a href="#">
+                                                        <button type="button" class="btn btn-outline-primary">view</button>
+                                                    </a>
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                       
+                                    </div>
+                                </div>
+                                <div class="col-xl-4">
+                                   
+                                    <div class="card">
+                                        <div class="product">
+                                            <h4>Account Credits</h4>
+                                            <p>Last 30 days</p>
+                                           </div>
+                                          <h4 class="credits">35 000 00.00 <span>USD</span></h4>
+                                      <p>Available Credits</p>
+                                      <h4 class="credits">35 000 00.00 <span>USD</span></h4>
+                                      <p>Available Credits</p>
+                                      <h4 class="credits">35 000 00.00 <span>USD</span></h4>
+                                      <p>Available Credits</p>
+                                    </div>
+                                   </div>
+                              
+
+                            </div>
+                            <!-- [ Main Content ] end -->
+                        </div>
+                    </div>
+                                </table>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!-- [ Main Content ] end -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Required Js -->
+
+
+<script src="/public/js/vendor-all.min.js"></script>
+	<script src="/public/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/public/js/pcoded.min.js"></script>
+
+<!-- <script src="/public/plugins/chart-morris/js/raphael.min.js"></script> -->
+    <!-- <script src="/plugins/chart-morris/js/morris.min.js"></script> -->
+    <!-- <script src="/public/plugins/chart-morris/js/morris.min.js"></script> -->
+    <!-- <script src="/public/js/pages/chart-morris-custom.js"></script> -->
+    <!-- <script src="/js/pages/chart-morris-custom.js"></script> -->
+<!-- /////////////////////////////////////// -->
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script>
+              google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+
+        var data = google.visualization.arrayToDataTable([
+          ['Effort', 'Amount given'],
+          ['Fake Products',20,],
+          ['Authenticated Products',80],
+        ]);
+
+        var options = {
+          pieHole: 0.5,
+            enableInteractivity: false,
+            legend: 'none',
+          colors: ['5868FF','F3795C'],
+           
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('morris-donut-chart'));
+        chart.draw(data, options);
+      
+      
+            var total = 0;
+        for (var i = 0; i < data.getNumberOfRows(); i++) {
+            total += data.getValue(i, 1);
+        }
+        
+        var legend = document.getElementById("legend");
+        var legItem = [];
+        var colors = ['#5868FF','#F3795C'];
+        for (var i = 0; i < data.getNumberOfRows(); i++) {
+            var label = data.getValue(i, 0);
+            var value = data.getValue(i, 1);
+            var percent = Number(100 * value / total).toFixed(1);
+
+            // This will create legend list for the display
+            legItem[i] = document.createElement('li');
+            legItem[i].id = 'legend_' + data.getValue(i, 0);
+            legItem[i].innerHTML = '<div class="legendMarker"> <span style="color:' + colors[i] + ';">' +  percent+ '%' + ' ' + label + '</span></div>';
+
+            legend.appendChild(legItem[i]);
+        }
+    }
+</script>
+
+</body>
+
+</html>
+
